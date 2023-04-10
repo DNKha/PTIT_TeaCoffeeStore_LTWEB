@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+
+
+.hide{
+  display:none;  
+}
+
+.footer{
+	background-color: #006f3c;
+	color: #fff;
+	padding: 24px 15px;
+	
+}
+.head2 {
+    font-family: Baloo\ 2;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.footer-content-block {
+	    max-width: 1050px;
+	    width: 100%;
+	    margin: 0 auto;
+	    display: grid;
+	    grid-template-columns: 600px 1fr;
+	    grid-gap: 30px;
+	}
+.footer-license {
+	
+    background-color: #fff;
+    height: 30px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.footer-license-block {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 5px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+    color: #006f3c; 
+}
+
+.footer-a{
+	color: #fff;
+}
+
+.col1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.body {
+	padding-top: 0px !important;
+    margin: 0px;
+    font-family: Arimo;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.35s ease 0s;
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-shadow: rgb(0 0 0 / 0%) 1px 1px 1px;
+    color: rgb(51, 51, 51);
+    padding: 0px !important; 
+}
+.f-social {
+    text-align: right;
+}
+
+
+.teastore-prod {
+	height: 220px !important;
+	max-width: 200%;
+}
+
+.detail-img-prod {
+	max-width: 100%;
+	max-height: 400px;
+}
+
+.detail-info-prod li {
+	font-variant: small-caps;
+	font-size: larger;
+	line-height: 30px;
+}
+
+.thumb-img-prod {
+	width: 60px;
+	height: 60px;
+	border-radius: 5px;
+	margin: 3px;
+	padding: 3px;
+	box-shadow: 0px 0px 2px blue;
+}
+
+.thumb-img-prod:hover {
+	box-shadow: 0px 0px 3px red;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.pro-icon-wraper{
+	position: relative;
+}
+
+.pro-icon{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+
+
+
